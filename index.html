@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cairo Metro Tickets</title>
+    <link rel="icon" href="imgs/metroicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div class="metro-form">
+            <form action="" method="get">
+                <label for="">اختر محطة الركوب :</label>
+                <select name="station" id="station" required>
+                    <option id="none" class="none" value="">اختر المحطة</option>
+                    <option id="o1" class="o1" value="0">المرج الجديدة</option>
+                    <option id="o1" class="o1" value="1">المرج</option>
+                    <option id="o1" class="o1" value="2">عزبة النخل</option>
+                    <option id="o1" class="o1" value="3">عين شمس</option>
+                    <option id="o1" class="o1" value="4">المطرية</option>
+                    <option id="o1" class="o1" value="5">حلمية الزيتون</option>
+                    <option id="o1" class="o1" value="6">حدائق الزيتون</option>
+                    <option id="o1" class="o1" value="7">سراي القبة</option>
+                    <option id="o1" class="o1" value="8">حمامات القبة</option>
+                    <option id="o1" class="o1" value="9">كوبري القبة</option>
+                    <option id="o1" class="o1" value="10">منشية الصدر</option>
+                    <option id="o1" class="o1" value="11">الدمرداش</option>
+                    <option id="o1" class="o1" value="12">غمرة</option>
+                    <option id="o1" class="o1" value="13">الشهداء</option>
+                    <option id="o1" class="o1" value="14">أحمد عرابي</option>
+                    <option id="o1" class="o1" value="15">جمال عبد الناصر</option>
+                    <option id="o1" class="o1" value="16">السادات</option>
+                    <option id="o1" class="o1" value="17">سعد زغلول</option>
+                    <option id="o1" class="o1" value="18">السيدة زينب</option>
+                    <option id="o1" class="o1" value="19">الملك الصالح</option>
+                    <option id="o1" class="o1" value="20">مار جرجس</option>
+                    <option id="o1" class="o1" value="21">الزهراء</option>
+                    <option id="o1" class="o1" value="22">دار السلام</option>
+                    <option id="o1" class="o1" value="23">حدائق المعادي</option>
+                    <option id="o1" class="o1" value="24">المعادي</option>
+                    <option id="o1" class="o1" value="25">ثكنات المعادي</option>
+                    <option id="o1" class="o1" value="26">طرة البلد</option>
+                    <option id="o1" class="o1" value="27">كوتسيكا</option>
+                    <option id="o1" class="o1" value="28">طرة الأسمنت</option>
+                    <option id="o1" class="o1" value="29">المعصرة</option>
+                    <option id="o1" class="o1" value="30">حدائق حلوان</option>
+                    <option id="o1" class="o1" value="31">وادي حوف</option>
+                    <option id="o1" class="o1" value="32">جامعة حلوان</option>
+                    <option id="o1" class="o1" value="33">عين حلوان</option>
+                    <option id="o1" class="o1" value="34">حلوان</option>
+                    <option id="o2" class="o2" value="35">شبرا الخيمة</option>
+                    <option id="o2" class="o2" value="36">كلية الزراعة</option>
+                    <option id="o2" class="o2" value="37">المظلات</option>
+                    <option id="o2" class="o2" value="38">الخلفاوي</option>
+                    <option id="o2" class="o2" value="39">سانت تريزا</option>
+                    <option id="o2" class="o2" value="40">روض الفرج</option>
+                    <option id="o2" class="o2" value="41">مسرة</option>
+                    <option id="o2" class="o2" value="42">العتبة</option>
+                    <option id="o2" class="o2" value="43">محمد نجيب</option>
+                    <option id="o2" class="o2" value="44">الأوبرا</option>
+                    <option id="o2" class="o2" value="45">الدقي</option>
+                    <option id="o2" class="o2" value="46">البحوث</option>
+                    <option id="o2" class="o2" value="47">جامعة القاهرة</option>
+                    <option id="o2" class="o2" value="48">فيصل</option>
+                    <option id="o2" class="o2" value="49">الجيزة</option>
+                    <option id="o2" class="o2" value="50">أم المصريين</option>
+                    <option id="o2" class="o2" value="51">ساقية مكي</option>
+                    <option id="o2" class="o2" value="52">المنيب</option>
+                    <option id="o3" class="o3" value="53">عدلي منصور</option>
+                    <option id="o3" class="o3" value="54">الهايكستب</option>
+                    <option id="o3" class="o3" value="55">عمر بن الخطاب</option>
+                    <option id="o3" class="o3" value="56">قباء</option>
+                    <option id="o3" class="o3" value="57">هشام بركات</option>
+                    <option id="o3" class="o3" value="58">النزهة</option>
+                    <option id="o3" class="o3" value="59">نادي الشمس</option>
+                    <option id="o3" class="o3" value="60">ألف مسكن</option>
+                    <option id="o3" class="o3" value="61">هليوبوليس</option>
+                    <option id="o3" class="o3" value="62">هارون</option>
+                    <option id="o3" class="o3" value="63">الأهرام</option>
+                    <option id="o3" class="o3" value="64">كلية البنات</option>
+                    <option id="o3" class="o3" value="65">الاستاد</option>
+                    <option id="o3" class="o3" value="66">أرض المعارض</option>
+                    <option id="o3" class="o3" value="67">العباسية</option>
+                    <option id="o3" class="o3" value="68">عبده باشا</option>
+                    <option id="o3" class="o3" value="69">الجيش</option>
+                    <option id="o3" class="o3" value="70">باب الشعرية</option>
+                    <option id="o3" class="o3" value="71">ماسبيرو</option>
+                    <option id="o3" class="o3" value="72">صفاء حجازي</option>
+                    <option id="o3" class="o3" value="73">الكيت كات</option>
+                    <option id="o3" class="o3" value="74">السودان</option>
+                    <option id="o3" class="o3" value="75">أمبابة</option>
+                    <option id="o3" class="o3" value="76">البوهي</option>
+                    <option id="o3" class="o3" value="77">القومية العربية</option>
+                    <option id="o3" class="o3" value="78">الطريق الدائري</option>
+                    <option id="o3" class="o3" value="79">محور روض الفرج</option>
+                    <option id="o3" class="o3" value="80">التوفيقية</option>
+                    <option id="o3" class="o3" value="81">وادي النيل</option>
+                    <option id="o3" class="o3" value="82">جامعة الدول العربية</option>
+                    <option id="o3" class="o3" value="83">بولاق الدكرور</option>
+                </select>
+                <label for="">اختر محطة الوصول :</label>
+                <select name="station" id="station" required>
+                    <option id="none" value="">اختر المحطة</option>
+                    <option id="o1" class="o1" value="0">المرج الجديدة</option>
+                    <option id="o1" class="o1" value="1">المرج</option>
+                    <option id="o1" class="o1" value="2">عزبة النخل</option>
+                    <option id="o1" class="o1" value="3">عين شمس</option>
+                    <option id="o1" class="o1" value="4">المطرية</option>
+                    <option id="o1" class="o1" value="5">حلمية الزيتون</option>
+                    <option id="o1" class="o1" value="6">حدائق الزيتون</option>
+                    <option id="o1" class="o1" value="7">سراي القبة</option>
+                    <option id="o1" class="o1" value="8">حمامات القبة</option>
+                    <option id="o1" class="o1" value="9">كوبري القبة</option>
+                    <option id="o1" class="o1" value="10">منشية الصدر</option>
+                    <option id="o1" class="o1" value="11">الدمرداش</option>
+                    <option id="o1" class="o1" value="12">غمرة</option>
+                    <option id="o1" class="o1" value="13">الشهداء</option>
+                    <option id="o1" class="o1" value="14">أحمد عرابي</option>
+                    <option id="o1" class="o1" value="15">جمال عبد الناصر</option>
+                    <option id="o1" class="o1" value="16">السادات</option>
+                    <option id="o1" class="o1" value="17">سعد زغلول</option>
+                    <option id="o1" class="o1" value="18">السيدة زينب</option>
+                    <option id="o1" class="o1" value="19">الملك الصالح</option>
+                    <option id="o1" class="o1" value="20">مار جرجس</option>
+                    <option id="o1" class="o1" value="21">الزهراء</option>
+                    <option id="o1" class="o1" value="22">دار السلام</option>
+                    <option id="o1" class="o1" value="23">حدائق المعادي</option>
+                    <option id="o1" class="o1" value="24">المعادي</option>
+                    <option id="o1" class="o1" value="25">ثكنات المعادي</option>
+                    <option id="o1" class="o1" value="26">طرة البلد</option>
+                    <option id="o1" class="o1" value="27">كوتسيكا</option>
+                    <option id="o1" class="o1" value="28">طرة الأسمنت</option>
+                    <option id="o1" class="o1" value="29">المعصرة</option>
+                    <option id="o1" class="o1" value="30">حدائق حلوان</option>
+                    <option id="o1" class="o1" value="31">وادي حوف</option>
+                    <option id="o1" class="o1" value="32">جامعة حلوان</option>
+                    <option id="o1" class="o1" value="33">عين حلوان</option>
+                    <option id="o1" class="o1" value="34">حلوان</option>
+                    <option id="o2" class="o2" value="35">شبرا الخيمة</option>
+                    <option id="o2" class="o2" value="36">كلية الزراعة</option>
+                    <option id="o2" class="o2" value="37">المظلات</option>
+                    <option id="o2" class="o2" value="38">الخلفاوي</option>
+                    <option id="o2" class="o2" value="39">سانت تريزا</option>
+                    <option id="o2" class="o2" value="40">روض الفرج</option>
+                    <option id="o2" class="o2" value="41">مسرة</option>
+                    <option id="o2" class="o2" value="42">العتبة</option>
+                    <option id="o2" class="o2" value="43">محمد نجيب</option>
+                    <option id="o2" class="o2" value="44">الأوبرا</option>
+                    <option id="o2" class="o2" value="45">الدقي</option>
+                    <option id="o2" class="o2" value="46">البحوث</option>
+                    <option id="o2" class="o2" value="47">جامعة القاهرة</option>
+                    <option id="o2" class="o2" value="48">فيصل</option>
+                    <option id="o2" class="o2" value="49">الجيزة</option>
+                    <option id="o2" class="o2" value="50">أم المصريين</option>
+                    <option id="o2" class="o2" value="51">ساقية مكي</option>
+                    <option id="o2" class="o2" value="52">المنيب</option>
+                    <option id="o3" class="o3" value="53">عدلي منصور</option>
+                    <option id="o3" class="o3" value="54">الهايكستب</option>
+                    <option id="o3" class="o3" value="55">عمر بن الخطاب</option>
+                    <option id="o3" class="o3" value="56">قباء</option>
+                    <option id="o3" class="o3" value="57">هشام بركات</option>
+                    <option id="o3" class="o3" value="58">النزهة</option>
+                    <option id="o3" class="o3" value="59">نادي الشمس</option>
+                    <option id="o3" class="o3" value="60">ألف مسكن</option>
+                    <option id="o3" class="o3" value="61">هليوبوليس</option>
+                    <option id="o3" class="o3" value="62">هارون</option>
+                    <option id="o3" class="o3" value="63">الأهرام</option>
+                    <option id="o3" class="o3" value="64">كلية البنات</option>
+                    <option id="o3" class="o3" value="65">الاستاد</option>
+                    <option id="o3" class="o3" value="66">أرض المعارض</option>
+                    <option id="o3" class="o3" value="67">العباسية</option>
+                    <option id="o3" class="o3" value="68">عبده باشا</option>
+                    <option id="o3" class="o3" value="69">الجيش</option>
+                    <option id="o3" class="o3" value="70">باب الشعرية</option>
+                    <option id="o3" class="o3" value="71">ماسبيرو</option>
+                    <option id="o3" class="o3" value="72">صفاء حجازي</option>
+                    <option id="o3" class="o3" value="73">الكيت كات</option>
+                    <option id="o3" class="o3" value="74">السودان</option>
+                    <option id="o3" class="o3" value="75">أمبابة</option>
+                    <option id="o3" class="o3" value="76">البوهي</option>
+                    <option id="o3" class="o3" value="77">القومية العربية</option>
+                    <option id="o3" class="o3" value="78">الطريق الدائري</option>
+                    <option id="o3" class="o3" value="79">محور روض الفرج</option>
+                    <option id="o3" class="o3" value="80">التوفيقية</option>
+                    <option id="o3" class="o3" value="81">وادي النيل</option>
+                    <option id="o3" class="o3" value="82">جامعة الدول العربية</option>
+                    <option id="o3" class="o3" value="83">بولاق الدكرور</option>
+                </select>
+                <label for="">ادخل رقم البطاقة المكون من 16 رقم :</label>
+                <input type="number" name="" id="visaCardNumber" required>
+                <label for="">ادخل رقم صلاحية البطاقة :</label>
+                <input type="month" name="" id="visaCardExpiry" required>
+                <label for="">ادخل الرمز السري المكون من 3 ارقام الموجود في ظهر البطاقة :</label>
+                <input type="number" name="" id="visaCardCVV" required>
+                <label for="">ادخل اسم حامل البطاقة :</label>
+                <input type="text" name="" id="visaCardHolderName" required>
+                <div>
+                    <input type="checkbox" name="" id="checkbox" required>
+                    <label for="checkbox">أوافق على صحة جميع البيانات المدخلة.</label>
+                </div>
+                <button type="submit">اضغط لشراء التذكرة</button>
+            </form>
+        </div>
+        <section class="tickets_prices">
+            <div class="prices">
+                <h2>تذكرتك الحالية</h2>
+                <input type="text" class="currentTicket" id="currentTicket" readonly>
+            </div>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
