@@ -29,7 +29,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('imgs/48f38323c79c9d51229097be1701f3f9.jpg');
+    background-image: url('/imgs/48f38323c79c9d51229097be1701f3f9.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
@@ -57,7 +57,8 @@ label::after {
     color: red;
     font-size: 25px;
 }
-select {
+select[name="from"],
+select[name="to"] {
     border: 3px solid blue;
     border-radius: 10px;
     background-color: rgb(255, 246, 232);
@@ -105,18 +106,18 @@ button:hover {
 button:active {
     transform: scale(0.9);
 }
-section {
-    padding: 5px 0;
-    position: fixed;
-    left: 0;
+.prices {
     transform: translateY(-50%);
-    background-color: white;
     position: fixed;
     top: 92%;
     left: 10%;
     width: 100px;
 }
+.prices h2 {
+    margin-right: 14px;
+    width: 135px;
+    filter: drop-shadow(0 0 5px blue);
+}
 input.currentTicket {
-    width: 90px;
-    padding: 0;
+    width: 60px;
 }

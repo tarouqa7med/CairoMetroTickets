@@ -13,7 +13,7 @@
         <div class="metro-form">
             <form action="" method="get">
                 <label for="">اختر محطة الركوب :</label>
-                <select name="station" id="station" required>
+                <select name="from" id="fromStation" required>
                     <option id="none" class="none" value="">اختر المحطة</option>
                     <option id="o1" class="o1" value="0">المرج الجديدة</option>
                     <option id="o1" class="o1" value="1">المرج</option>
@@ -101,7 +101,7 @@
                     <option id="o3" class="o3" value="83">بولاق الدكرور</option>
                 </select>
                 <label for="">اختر محطة الوصول :</label>
-                <select name="station" id="station" required>
+                <select name="to" id="toStation" required>
                     <option id="none" value="">اختر المحطة</option>
                     <option id="o1" class="o1" value="0">المرج الجديدة</option>
                     <option id="o1" class="o1" value="1">المرج</option>
@@ -189,11 +189,11 @@
                     <option id="o3" class="o3" value="83">بولاق الدكرور</option>
                 </select>
                 <label for="">ادخل رقم البطاقة المكون من 16 رقم :</label>
-                <input type="number" name="" id="visaCardNumber" required>
+                <input type="text" id="visaCardNumber" inputmode="numeric" maxlength="19" required>                
                 <label for="">ادخل رقم صلاحية البطاقة :</label>
                 <input type="month" name="" id="visaCardExpiry" required>
                 <label for="">ادخل الرمز السري المكون من 3 ارقام الموجود في ظهر البطاقة :</label>
-                <input type="number" name="" id="visaCardCVV" required>
+                <input type="text" id="visaCardCVV" inputmode="numeric" maxlength="3">
                 <label for="">ادخل اسم حامل البطاقة :</label>
                 <input type="text" name="" id="visaCardHolderName" required>
                 <div>
@@ -203,12 +203,10 @@
                 <button type="submit">اضغط لشراء التذكرة</button>
             </form>
         </div>
-        <section class="tickets_prices">
-            <div class="prices">
-                <h2>تذكرتك الحالية</h2>
-                <input type="text" class="currentTicket" id="currentTicket" readonly>
-            </div>
-        </section>
+        <div class="prices">
+            <h2>تذكرتك الحالية</h2>
+            <input type="text" class="currentTicket" id="currentTicket" readonly>
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
