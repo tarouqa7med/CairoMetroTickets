@@ -29,7 +29,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('/imgs/48f38323c79c9d51229097be1701f3f9.jpg');
+    background-image: url('../imgs/48f38323c79c9d51229097be1701f3f9.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
@@ -42,9 +42,10 @@ body {
 form {
     margin-top: 15px;
     padding: 5px 25px;
-    background-color: white;
+    background-color: #ffffff80;
     border: 2px solid rgb(150, 0, 50);
     border-radius: 5%;
+    backdrop-filter: blur(15px);
     box-shadow: 0 0 25px 0 black;
     display: flex;
     flex-direction: column;
